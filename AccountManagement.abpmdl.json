@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "AccountManagement.Domain.Shared": {
+      "path": "src/AccountManagement.Domain.Shared/AccountManagement.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "AccountManagement.Domain": {
+      "path": "src/AccountManagement.Domain/AccountManagement.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "AccountManagement.Application.Contracts": {
+      "path": "src/AccountManagement.Application.Contracts/AccountManagement.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "AccountManagement.Application": {
+      "path": "src/AccountManagement.Application/AccountManagement.Application.abppkg.json",
+      "folder": "src"
+    },
+    "AccountManagement.EntityFrameworkCore": {
+      "path": "src/AccountManagement.EntityFrameworkCore/AccountManagement.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "AccountManagement.MongoDB": {
+      "path": "src/AccountManagement.MongoDB/AccountManagement.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "AccountManagement.HttpApi": {
+      "path": "src/AccountManagement.HttpApi/AccountManagement.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "AccountManagement.HttpApi.Client": {
+      "path": "src/AccountManagement.HttpApi.Client/AccountManagement.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "AccountManagement.TestBase": {
+      "path": "test/AccountManagement.TestBase/AccountManagement.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "AccountManagement.EntityFrameworkCore.Tests": {
+      "path": "test/AccountManagement.EntityFrameworkCore.Tests/AccountManagement.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "AccountManagement.MongoDB.Tests": {
+      "path": "test/AccountManagement.MongoDB.Tests/AccountManagement.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "AccountManagement.Domain.Tests": {
+      "path": "test/AccountManagement.Domain.Tests/AccountManagement.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "AccountManagement.Application.Tests": {
+      "path": "test/AccountManagement.Application.Tests/AccountManagement.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "AccountManagement.HttpApi.Host": {
+      "path": "host/AccountManagement.HttpApi.Host/AccountManagement.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "AccountManagement.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/AccountManagement.HttpApi.Client.ConsoleTestApp/AccountManagement.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "AccountManagement.AuthServer": {
+      "path": "host/AccountManagement.AuthServer/AccountManagement.AuthServer.abppkg.json",
+      "folder": "host"
+    },
+    "AccountManagement.Host.Shared": {
+      "path": "host/AccountManagement.Host.Shared/AccountManagement.Host.Shared.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

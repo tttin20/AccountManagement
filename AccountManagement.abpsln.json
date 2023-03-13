@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "AccountManagement": {
+      "path": "AccountManagement.abpmdl.json"
+    }
+  }
+}
