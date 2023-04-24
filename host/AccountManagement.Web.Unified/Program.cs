@@ -35,7 +35,7 @@ public class Program
             builder.Host.AddAppSettingsSecretsJson()
                 .UseAutofac()
                 .UseSerilog();
-            await builder.AddApplicationAsync<AccountManagementWebHostModule>();
+            await builder.AddApplicationAsync<AccountManagementWebUnifiedModule>();
             var app = builder.Build();
             await app.InitializeApplicationAsync();
             await app.RunAsync();
