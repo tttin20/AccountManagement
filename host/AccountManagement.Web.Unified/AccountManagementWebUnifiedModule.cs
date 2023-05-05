@@ -41,6 +41,7 @@ using Volo.Abp.TenantManagement.EntityFrameworkCore;
 using Volo.Abp.TenantManagement.Web;
 using Volo.Abp.Threading;
 using Volo.Abp.VirtualFileSystem;
+using Volo.Abp.Uow;
 
 namespace AccountManagement;
 
@@ -83,9 +84,14 @@ public class AccountManagementWebUnifiedModule : AbpModule
         var hostingEnvironment = context.Services.GetHostingEnvironment();
         var configuration = context.Services.GetConfiguration();
 
+        Configure<AbpUnitOfWorkDefaultOptions>(options =>
+        {
+            options.TransactionBehavior = UnitOfWorkTransactionBehavior.Disabled;
+        });
+
         Configure<AbpDbContextOptions>(options =>
         {
-            options.UseSqlServer();
+            options.UseSqlite();
         });
 
         if (hostingEnvironment.IsDevelopment())

@@ -63,9 +63,17 @@
       "path": "host/AccountManagement.HttpApi.Host/AccountManagement.HttpApi.Host.abppkg.json",
       "folder": "host"
     },
+    "AccountManagement.Web": {
+      "path": "src/AccountManagement.Web/AccountManagement.Web.abppkg.json",
+      "folder": "src"
+    },
     "AccountManagement.HttpApi.Client.ConsoleTestApp": {
       "path": "test/AccountManagement.HttpApi.Client.ConsoleTestApp/AccountManagement.HttpApi.Client.ConsoleTestApp.abppkg.json",
       "folder": "test"
+    },
+    "AccountManagement.Web.Host": {
+      "path": "host/AccountManagement.Web.Host/AccountManagement.Web.Host.abppkg.json",
+      "folder": "host"
     },
     "AccountManagement.AuthServer": {
       "path": "host/AccountManagement.AuthServer/AccountManagement.AuthServer.abppkg.json",
@@ -73,6 +81,30 @@
     },
     "AccountManagement.Host.Shared": {
       "path": "host/AccountManagement.Host.Shared/AccountManagement.Host.Shared.abppkg.json",
+      "folder": "host"
+    },
+    "AccountManagement.Web.Unified": {
+      "path": "host/AccountManagement.Web.Unified/AccountManagement.Web.Unified.abppkg.json",
+      "folder": "host"
+    },
+    "AccountManagement.Blazor": {
+      "path": "src/AccountManagement.Blazor/AccountManagement.Blazor.abppkg.json",
+      "folder": "src"
+    },
+    "AccountManagement.Blazor.Host": {
+      "path": "host/AccountManagement.Blazor.Host/AccountManagement.Blazor.Host.abppkg.json",
+      "folder": "host"
+    },
+    "AccountManagement.Blazor.Server": {
+      "path": "src/AccountManagement.Blazor.Server/AccountManagement.Blazor.Server.abppkg.json",
+      "folder": "src"
+    },
+    "AccountManagement.Blazor.WebAssembly": {
+      "path": "src/AccountManagement.Blazor.WebAssembly/AccountManagement.Blazor.WebAssembly.abppkg.json",
+      "folder": "src"
+    },
+    "AccountManagement.Blazor.Server.Host": {
+      "path": "host/AccountManagement.Blazor.Server.Host/AccountManagement.Blazor.Server.Host.abppkg.json",
       "folder": "host"
     }
   }

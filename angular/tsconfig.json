@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.prod.json",
+  "compilerOptions": {
+    "paths": {
+      "@account-management": [
+        "projects/account-management/src/public-api.ts"
+      ],
+      "@account-management/config": [
+        "projects/account-management/config/src/public-api.ts"
+      ],
+      "@proxy": ["projects/account-management/src/lib/proxy/index.ts"],
+      "@proxy/*": ["projects/account-management/src/lib/proxy/*"]
+    }
+  }
+}

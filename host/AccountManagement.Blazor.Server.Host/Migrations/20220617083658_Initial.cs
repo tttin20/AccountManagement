@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace AccountManagement.Migrations
+namespace AccountManagement.Blazor.Server.Host.Migrations
 {
     public partial class Initial : Migration
     {
